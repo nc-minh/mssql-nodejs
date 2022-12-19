@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "outDir": "dist",
+    "baseUrl": "./",
+    "paths": {
+      "@configs": ["./src/configs"],
+      "@constants": ["./constants"],
+      "@commands": ["./commands"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.spec.ts", "node_modules"]
+}

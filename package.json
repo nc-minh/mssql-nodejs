@@ -1,0 +1,34 @@
+{
+  "name": "mssql-nodejs",
+  "version": "1.0.0",
+  "description": "mssql-nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "start-prod": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nc-minh/mssql-nodejs.git"
+  },
+  "keywords": [
+    "ncm"
+  ],
+  "author": "ncm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nc-minh/mssql-nodejs/issues"
+  },
+  "homepage": "https://github.com/nc-minh/mssql-nodejs#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "dotenv": "^16.0.3",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "mssql": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
